@@ -1,0 +1,73 @@
+.taskItem {
+  align-items: center;
+  background: #2c2c2c;
+  border: 1px solid #333;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #3a3a3a;
+  }
+}
+
+.taskCompleted {
+  color: #888;
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.taskContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.taskDate {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.taskTitle {
+  color: #fff;
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editButton,
+.deleteButton {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.editButton {
+  background: #0070f3;
+  color: #fff;
+
+  &:hover {
+    background: #005bb5;
+  }
+}
+
+.deleteButton {
+  background: #d32f2f;
+  color: #fff;
+
+  &:hover {
+    background: #b71c1c;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="arrow-up" viewBox="0 0 24 24">
+        <path d="M12 4l8 8H4z" />
+    </symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24">
+        <path d="M12 20l-8-8h16z" />
+    </symbol>
+</svg>

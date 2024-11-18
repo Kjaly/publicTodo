@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0070f3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content {
+  background-color: #f7f7f7;
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
